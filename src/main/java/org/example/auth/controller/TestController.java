@@ -1,4 +1,4 @@
-package org.example.auth.controller.api;
+package org.example.auth.controller;
 
 import lombok.extern.slf4j.Slf4j;
 import net.logstash.logback.marker.LogstashMarker;
