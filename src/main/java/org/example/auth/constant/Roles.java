@@ -6,9 +6,7 @@ package org.example.auth.constant;
 
 public enum Roles {
     ADMIN,
-    CANDIDATE,
-    RECRUITER,
-    INTERVIEWER,
     TECH,
-    CLIENT
+    CLIENT,
+    SYSTEM
 }

@@ -33,8 +33,6 @@ CREATE TABLE IF NOT EXISTS user_role(
 );
 
 INSERT INTO role (name, status, created_on, last_updated_on) VALUES ('ADMIN', 'ACTIVE', now(), now());
-INSERT INTO role (name, status, created_on, last_updated_on) VALUES ('CANDIDATE', 'ACTIVE', now(), now());
-INSERT INTO role (name, status, created_on, last_updated_on) VALUES ('RECRUITER', 'ACTIVE', now(), now());
-INSERT INTO role (name, status, created_on, last_updated_on) VALUES ('INTERVIEWER', 'ACTIVE', now(), now());
 INSERT INTO role (name, status, created_on, last_updated_on) VALUES ('TECH', 'ACTIVE', now(), now());
 INSERT INTO role (name, status, created_on, last_updated_on) VALUES ('CLIENT', 'ACTIVE', now(), now());
+INSERT INTO role (name, status, created_on, last_updated_on) VALUES ('SYSTEM', 'ACTIVE', now(), now());
